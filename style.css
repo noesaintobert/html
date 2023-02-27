@@ -1,7 +1,8 @@
 body {
     width: 1440px;
     height: 1024px;
-    margin: 8%;
+    margin: 0%;
+
 }
 
 header {
@@ -23,7 +24,7 @@ header img {
 li {
     width: 270px;
     height: 50px;
-    background-color: #000000fe;
+    background-color: #7f5e5efe;
     color: #000;
     padding: 2px;
     display: inline-block;
@@ -64,16 +65,18 @@ aside {
     margin-left: 10px;
     margin-top: 10px;
     padding: 1px;
-    background-color: rgb(190, 203, 190);
+    background-color: rgb(29, 196, 29);
 }
 
 .para {
-    display: inline-flex;
+    float: left;
 }
 
+
 .para2 {
-    display: inline-flex;
+    float: left;
 }
+
 
 p1 {
     display: block;
@@ -108,4 +111,115 @@ p4 {
     height: 200px;
     margin-top: 10px;
     background: rgb(83, 242, 4);
+}
+
+@media all and (max-width:800px) {
+    body {
+        background-color: red;
+        width: 500px;
+        height: 300px;
+    }
+
+    header {
+        width: 1440px;
+        height: 200px;
+
+        display: flex;
+    }
+
+
+
+    header img {
+        width: 200px;
+        height: 200px;
+    }
+
+    li {
+        width: 270px;
+        height: 50px;
+
+        padding: 2px;
+        display: inline-block;
+        font-size: 30px;
+        margin: auto;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 40px;
+
+    }
+
+    .bordure {
+        display: block;
+        width: 1440px;
+        height: 100px;
+
+    }
+
+
+
+    article {
+
+        width: 100%;
+        height: 1000px;
+        margin-top: 10px;
+        padding: 3%;
+
+    }
+
+    aside {
+        width: 100%;
+        height: 1000px;
+
+        margin-left: 10px;
+        margin-top: 10px;
+        padding: 1px;
+
+    }
+
+    .para {
+        display: inline-flex;
+    }
+
+    .para2 {
+        display: inline-flex;
+    }
+
+
+    p1 {
+        display: block;
+        width: 720px;
+        height: 200px;
+        margin-top: 10px;
+
+    }
+
+    p2 {
+
+        display: block;
+        width: 720px;
+        height: 200px;
+        margin-top: 10px;
+
+    }
+
+    p3 {
+
+        display: block;
+        width: 720px;
+        height: 200px;
+        margin-top: 10px;
+
+    }
+
+    p4 {
+
+        display: block;
+        width: 720px;
+        height: 200px;
+        margin-top: 10px;
+
+    }
+
 }
