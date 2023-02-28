@@ -83,7 +83,7 @@ p1 {
     width: 720px;
     height: 200px;
     margin-top: 10px;
-    background: rgb(255, 242, 1);
+    background: yellow;
 }
 
 p2 {
@@ -92,7 +92,7 @@ p2 {
     width: 720px;
     height: 200px;
     margin-top: 10px;
-    background: rgb(215, 5, 5);
+    background: red;
 }
 
 p3 {
@@ -101,7 +101,7 @@ p3 {
     width: 720px;
     height: 200px;
     margin-top: 10px;
-    background: rgb(5, 110, 215);
+    background: blue;
 }
 
 p4 {
@@ -110,7 +110,7 @@ p4 {
     width: 720px;
     height: 200px;
     margin-top: 10px;
-    background: rgb(83, 242, 4);
+    background: green;
 }
 
 @media all and (max-width:800px) {
