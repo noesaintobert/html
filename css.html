@@ -5,13 +5,176 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Accueil</title>
+    <style>
+        body {
+            width: 1440px;
+            height: 1024px;
+            margin: 0 auto;
+
+        }
+
+        header {
+            width: 1440px;
+            height: 200px;
+            margin-top: 5%;
+            background-color: #7775816a;
+            display: flex;
+        }
+
+        ul {
+            text-align: center;
+        }
+
+        header img {
+            width: 200px;
+            height: 200px;
+        }
+
+        li {
+            width: 270px;
+            height: 50px;
+            background-color: #7f5e5efe;
+            color: #000;
+            padding: 2px;
+            display: inline-block;
+            font-size: 30px;
+            margin: auto;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 40px;
+            font-family: Trebuchet MS, sans-serif;
+            color: rgba(255, 255, 255, 0.729);
+        }
+
+        .bordure {
+            display: block;
+            width: 1440px;
+            height: 100px;
+            background: rgb(239, 6, 181);
+        }
+
+        .centre {
+            display: flex;
+        }
+
+        article {
+
+            width: 1000px;
+            height: 500px;
+            margin-top: 10px;
+            padding: 3%;
+            background: rgba(195, 185, 185, 0.699);
+        }
+
+        aside {
+            width: 340px;
+            height: 585px;
+            margin-left: 10px;
+            margin-top: 10px;
+            padding: 1px;
+            background-color: rgb(29, 196, 29);
+        }
+
+        .para {
+            float: left;
+        }
+
+
+        .para2 {
+            float: left;
+        }
+
+
+        p1 {
+            display: block;
+            width: 720px;
+            height: 200px;
+            margin-top: 10px;
+            background: yellow;
+        }
+
+        p2 {
+
+            display: block;
+            width: 720px;
+            height: 200px;
+            margin-top: 10px;
+            background: red;
+        }
+
+        p3 {
+
+            display: block;
+            width: 720px;
+            height: 200px;
+            margin-top: 10px;
+            background: blue;
+        }
+
+        p4 {
+
+            display: block;
+            width: 720px;
+            height: 200px;
+            margin-top: 10px;
+            background: green;
+            margin-bottom: 5%;
+        }
+
+        @media only screen and (max-width:800px) {
+            header {
+                width: 100%;
+            }
+
+            .bordure {
+                width: 100%;
+            }
+
+            body {
+                background-color: #5c5b5b;
+            }
+
+            ul {
+                text-align: justify;
+            }
+
+            li {
+                width: 95%;
+                height: 50px;
+                background-color: #120101fe;
+                color: #ffffff;
+                padding: 20px;
+                display: block;
+                font-size: 10px;
+                margin-left: 1px;  
+                margin-top: 1%;
+                text-align: center;
+
+            }
+
+            article {
+                width: 50%;
+                height: 100%;
+            }
+
+            aside {
+                width: 50%;
+                height: 850px
+            }
+
+            .para,
+            .para2 {
+                width: 50%;
+            }
+    </style>
+    <title>Découvrez le CSS avec nous !</title>
 </head>
 
 <body>
     <header>
-        <a href="accueil.html"> <img src="logo.png" </a>
+        <a href="index.html"> <img src="logo.png" </a>
 
 
     </header>
@@ -22,7 +185,7 @@
             <li><a href="contact.html">Contact</a></li>
             <li><a href="html.html">HTML</a></li>
             <li><a href="css.html">CSS</a></li>
-            
+
         </ul>
     </nav>
     <div class="bordure">
@@ -34,7 +197,7 @@
     <div class="centre">
         <article>
 
-            <h1>CSS</h1>
+            <h1>Qu'est-ce que le CSS ?</h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ducimus nam hic. Perspiciatis voluptas,
                 quam
@@ -80,32 +243,28 @@
 
         </article>
         <aside>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, incidunt! Voluptate cumque repellendus
-            quia suscipit, ullam alias doloremque veniam recusandae provident, voluptates, numquam ut pariatur. Nobis
-            laudantium est cupiditate odit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, aspernatur
-            magnam corrupti ipsa veniam dolore quia dignissimos sit laudantium necessitatibus ipsum saepe omnis minima
-            iure obcaecati nesciunt aut cum enim! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
-            sed ex cumque adipisci voluptatum! Repellendus nostrum doloribus vero ipsam quo sequi cum voluptatum
-            sapiente autem itaque non, obcaecati repellat consequatur? Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Reiciendis ipsa beatae quibusdam ipsam. Architecto aperiam voluptatum fugit nisi optio
-            quas unde nihil illo temporibus at neque magni, non quaerat quo! Lorem ipsum, dolor sit amet consectetur
-            adipisicing elit. Fugit eius incidunt facere aliquam repellendus reiciendis sit perferendis optio vero nobis
-            autem repellat ipsum quibusdam minima doloribus enim cum, debitis illo. Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit. Optio dolore nulla, quibusdam eius consequatur quaerat sunt rem magni nobis
-            voluptatum omnis, asperiores sed incidunt natus similique modi? Est, blanditiis tempore!
+            <ul>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+
+            </ul>
         </aside>
     </div>
 
     <footer>
         <div class="para">
-            <p1></p1>
+            <p1>dadad</p1>
             <p2></p2>
         </div>
         <div class="para2">
             <p3></p3>
             <p4></p4>
         </div>
-    
+
 
     </footer>
 

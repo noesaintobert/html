@@ -5,13 +5,179 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Accueil</title>
+    <style>
+        body {
+            width: 1440px;
+            height: 1024px;
+            margin: 0 auto;
+
+        }
+
+        header {
+            width: 1440px;
+            height: 200px;
+            margin-top: 5%;
+            background-color: #7775816a;
+            display: flex;
+        }
+
+        ul {
+            text-align: center;
+        }
+
+        header img {
+            width: 200px;
+            height: 200px;
+        }
+
+        li {
+            width: 270px;
+            height: 50px;
+            background-color: #7f5e5efe;
+            color: #000;
+            padding: 2px;
+            display: inline-block;
+            font-size: 30px;
+            margin: auto;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 40px;
+            font-family: Trebuchet MS, sans-serif;
+            color: rgba(255, 255, 255, 0.729);
+        }
+
+        .bordure {
+            display: block;
+            width: 1440px;
+            height: 100px;
+            background: rgb(239, 6, 181);
+        }
+
+        .centre {
+            display: flex;
+        }
+
+        article {
+
+            width: 1000px;
+            height: 500px;
+            margin-top: 10px;
+            padding: 3%;
+            background: rgba(195, 185, 185, 0.699);
+        }
+
+        aside {
+            width: 340px;
+            height: 585px;
+            margin-left: 10px;
+            margin-top: 10px;
+            padding: 1px;
+            background-color: rgb(29, 196, 29);
+        }
+
+        .para {
+            float: left;
+        }
+
+
+        .para2 {
+            float: left;
+        }
+
+
+        p1 {
+            display: block;
+            width: 720px;
+            height: 200px;
+            margin-top: 10px;
+            background: yellow;
+        }
+
+        p2 {
+
+            display: block;
+            width: 720px;
+            height: 200px;
+            margin-top: 10px;
+            background: red;
+        }
+
+        p3 {
+
+            display: block;
+            width: 720px;
+            height: 200px;
+            margin-top: 10px;
+            background: blue;
+        }
+
+        p4 {
+
+            display: block;
+            width: 720px;
+            height: 200px;
+            margin-top: 10px;
+            background: green;
+            margin-bottom: 5%;
+        }
+
+        @media only screen and (max-width:800px) {
+            header {
+                width: 100%;
+            }
+            header img{
+                margin-left: 315% ;
+            }
+
+            .bordure {
+                width: 100%;
+            }
+
+            body {
+                background-color: #5c5b5b;
+            }
+
+            ul {
+                text-align: justify;
+            }
+
+            li {
+                width: 95%;
+                height: 50px;
+                background-color: #120101fe;
+                color: #ffffff;
+                padding: 20px;
+                display: block;
+                font-size: 10px;
+                margin-left: 1px;  
+                margin-top: 1%;
+                text-align: center;
+
+            }
+
+            article {
+                width: 50%;
+                height: 100%;
+            }
+
+            aside {
+                width: 50%;
+                height: 850px
+            }
+
+            .para,
+            .para2 {
+                width: 50%;
+            }
+    </style>
+    <title>Accueil du site HTML 5</title>
 </head>
 
 <body>
     <header>
-        <a href="accueil.html"> <img src="logo.png" </a>
+        <a href="index.html"> <img src="logo.png" </a>
 
 
     </header>
@@ -22,7 +188,7 @@
             <li><a href="contact.html">Contact</a></li>
             <li><a href="html.html">HTML</a></li>
             <li><a href="css.html">CSS</a></li>
-            
+
         </ul>
     </nav>
     <div class="bordure">
@@ -94,14 +260,14 @@
 
     <footer>
         <div class="para">
-            <p1></p1>
+            <p1>dadad</p1>
             <p2></p2>
         </div>
         <div class="para2">
             <p3></p3>
             <p4></p4>
         </div>
-    
+
 
     </footer>
 

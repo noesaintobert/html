@@ -5,13 +5,176 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Accueil</title>
+    <style>
+        body {
+            width: 1440px;
+            height: 1024px;
+            margin: 0 auto;
+
+        }
+
+        header {
+            width: 1440px;
+            height: 200px;
+            margin-top: 5%;
+            background-color: #7775816a;
+            display: flex;
+        }
+
+        ul {
+            text-align: center;
+        }
+
+        header img {
+            width: 200px;
+            height: 200px;
+        }
+
+        li {
+            width: 270px;
+            height: 50px;
+            background-color: #7f5e5efe;
+            color: #000;
+            padding: 2px;
+            display: inline-block;
+            font-size: 30px;
+            margin: auto;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 40px;
+            font-family: Trebuchet MS, sans-serif;
+            color: rgba(255, 255, 255, 0.729);
+        }
+
+        .bordure {
+            display: block;
+            width: 1440px;
+            height: 100px;
+            background: rgb(239, 6, 181);
+        }
+
+        .centre {
+            display: flex;
+        }
+
+        article {
+
+            width: 1000px;
+            height: 500px;
+            margin-top: 10px;
+            padding: 3%;
+            background: rgba(195, 185, 185, 0.699);
+        }
+
+        aside {
+            width: 340px;
+            height: 585px;
+            margin-left: 10px;
+            margin-top: 10px;
+            padding: 1px;
+            background-color: rgb(29, 196, 29);
+        }
+
+        .para {
+            float: left;
+        }
+
+
+        .para2 {
+            float: left;
+        }
+
+
+        p1 {
+            display: block;
+            width: 720px;
+            height: 200px;
+            margin-top: 10px;
+            background: yellow;
+        }
+
+        p2 {
+
+            display: block;
+            width: 720px;
+            height: 200px;
+            margin-top: 10px;
+            background: red;
+        }
+
+        p3 {
+
+            display: block;
+            width: 720px;
+            height: 200px;
+            margin-top: 10px;
+            background: blue;
+        }
+
+        p4 {
+
+            display: block;
+            width: 720px;
+            height: 200px;
+            margin-top: 10px;
+            background: green;
+            margin-bottom: 5%;
+        }
+
+        @media only screen and (max-width:800px) {
+            header {
+                width: 100%;
+            }
+
+            .bordure {
+                width: 100%;
+            }
+
+            body {
+                background-color: #5c5b5b;
+            }
+
+            ul {
+                text-align: justify;
+            }
+
+            li {
+                width: 95%;
+                height: 50px;
+                background-color: #120101fe;
+                color: #ffffff;
+                padding: 20px;
+                display: block;
+                font-size: 10px;
+                margin-left: 1px;  
+                margin-top: 1%;
+                text-align: center;
+
+            }
+
+            article {
+                width: 50%;
+                height: 100%;
+            }
+
+            aside {
+                width: 50%;
+                height: 850px
+            }
+
+            .para,
+            .para2 {
+                width: 50%;
+            }
+    </style>
+    <title>Contactez le support de HTML 5</title>
 </head>
 
 <body>
     <header>
-        <a href="accueil.html"> <img src="logo.png" </a>
+        <a href="index.html"> <img src="logo.png" </a>
 
 
     </header>
@@ -22,7 +185,7 @@
             <li><a href="contact.html">Contact</a></li>
             <li><a href="html.html">HTML</a></li>
             <li><a href="css.html">CSS</a></li>
-            
+
         </ul>
     </nav>
     <div class="bordure">
@@ -35,77 +198,39 @@
         <article>
 
             <h1>Contact</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ducimus nam hic. Perspiciatis voluptas,
-                quam
-                sit facere illo sunt? Exercitationem error autem nobis accusantium quas quidem veniam quasi est cumque!
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae ducimus repellendus nihil incidunt?
-                Itaque
-                reprehenderit iure magnam quae ut cum quisquam, excepturi totam natus nihil sed, ipsa voluptatibus
-                ducimus
-                vel. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur saepe debitis sint dolor
-                sapiente ad minima, itaque culpa asperiores totam vero atque quaerat sunt, dignissimos repellat. Fuga
-                velit eligendi sunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto obcaecati
-                aspernatur cum non dicta doloremque consequuntur quidem minus provident molestias? Dolor velit maiores
-                debitis ipsa alias sint pariatur, commodi sed. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Earum cum enim assumenda animi doloribus sunt. Sint architecto necessitatibus praesentium distinctio
-                incidunt tempora et consequatur harum reprehenderit, nesciunt nisi assumenda repellat. Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Ipsam temporibus voluptates sunt voluptatem odio obcaecati
-                veritatis culpa pariatur nisi ut fugiat reprehenderit eius, ad inventore vel quidem architecto neque
-                ullam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt veniam beatae neque laudantium
-                accusamus? Dolorum odio voluptates tempore aspernatur consectetur dicta exercitationem, molestiae odit
-                molestias corporis velit hic saepe optio. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Provident error expedita quaerat ipsam nulla perspiciatis, vero laborum odio neque quo quidem qui sed
-                voluptatibus. Tenetur ex sit perferendis! Soluta, ea? Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit. Voluptate esse maxime deleniti vitae nam corrupti, voluptatem dignissimos repellendus
-                neque aliquam. Nulla tempora iusto omnis autem cum architecto quis quidem nobis! Lorem ipsum dolor sit
-                amet, consectetur adipisicing elit. Cum modi quidem possimus fuga illo quisquam, minima harum officia
-                est. Mollitia amet ab, vitae reprehenderit eligendi expedita dolorum repellendus debitis quisquam.
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias quo, dicta minus, a esse soluta omnis
-                est magni delectus ut iste aspernatur, nihil sapiente saepe ipsa corporis fugiat natus eos. Lorem, ipsum
-                dolor sit amet consectetur adipisicing elit. Ea sit explicabo impedit, non ipsam rem cumque voluptates
-                iste cum animi consequatur sequi iusto. Nobis quidem expedita eius, eum nam recusandae. Lorem ipsum
-                dolor sit amet consectetur adipisicing elit. A voluptatum totam debitis ut illo ipsa nesciunt cupiditate
-                eos aut mollitia, culpa facere commodi sunt voluptates, odit minus neque. Explicabo, eaque! Lorem ipsum
-                dolor sit amet consectetur, adipisicing elit. Aperiam amet assumenda quo expedita inventore minima,
-                magnam autem optio iste doloremque doloribus rerum placeat porro non vitae esse natus voluptates quam.
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis tempora mollitia neque aliquam quidem
-                obcaecati possimus ad quae autem cupiditate doloremque at hic corrupti debitis ullam, quaerat, doloribus
-                asperiores consequatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium consectetur
-                dicta dignissimos fugit. Facere, perspiciatis unde distinctio consequatur ut, provident dicta blanditiis
-                dignissimos dolor a aspernatur soluta quis velit quam. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Architecto velit molestiae fugiat perferendis ut quis repellat accusamus obcaecati
-                nostrum excepturi inventore fuga reprehenderit sit quaerat quam, voluptatum expedita. Architecto, esse!
-            </p>
+            <p>Voici le mail et le numéro du créateur</p>
+
+<address>
+  <a href="mailto:noe.saintobert@gmail.com">Adresse Mail: Noé Saintobert</a><br>
+  <a href="tel:+330749120614">Téléphone: 07 49 12 06 14</a>
+</address>
+
+            
 
         </article>
         <aside>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, incidunt! Voluptate cumque repellendus
-            quia suscipit, ullam alias doloremque veniam recusandae provident, voluptates, numquam ut pariatur. Nobis
-            laudantium est cupiditate odit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, aspernatur
-            magnam corrupti ipsa veniam dolore quia dignissimos sit laudantium necessitatibus ipsum saepe omnis minima
-            iure obcaecati nesciunt aut cum enim! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
-            sed ex cumque adipisci voluptatum! Repellendus nostrum doloribus vero ipsam quo sequi cum voluptatum
-            sapiente autem itaque non, obcaecati repellat consequatur? Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Reiciendis ipsa beatae quibusdam ipsam. Architecto aperiam voluptatum fugit nisi optio
-            quas unde nihil illo temporibus at neque magni, non quaerat quo! Lorem ipsum, dolor sit amet consectetur
-            adipisicing elit. Fugit eius incidunt facere aliquam repellendus reiciendis sit perferendis optio vero nobis
-            autem repellat ipsum quibusdam minima doloribus enim cum, debitis illo. Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit. Optio dolore nulla, quibusdam eius consequatur quaerat sunt rem magni nobis
-            voluptatum omnis, asperiores sed incidunt natus similique modi? Est, blanditiis tempore!
+            <ul>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+
+            </ul>
         </aside>
     </div>
 
     <footer>
         <div class="para">
-            <p1></p1>
+            <p1>dadad</p1>
             <p2></p2>
         </div>
         <div class="para2">
             <p3></p3>
             <p4></p4>
         </div>
-    
+
 
     </footer>
 
